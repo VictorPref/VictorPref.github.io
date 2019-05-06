@@ -76,19 +76,20 @@ button:focus {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .section_gap {
-  padding: 120px 0; }
+  padding: 50px 0; }
+  padding: 50px 0; }
   @media (max-width: 991px) {
     .section_gap {
       padding: 80px 0; } }
 
 .section_gap_top {
-  padding-top: 120px; }
+  padding-top: 60px; }
   @media (max-width: 991px) {
     .section_gap_top {
       padding-top: 80px; } }
 
 .section_gap_bottom {
-  padding-bottom: 120px; }
+  padding-bottom: 60px; }
   @media (max-width: 991px) {
     .section_gap_bottom {
       padding-bottom: 80px; } }
@@ -209,7 +210,7 @@ button:focus {
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #ffffff; }
+        color: #808080; }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
@@ -218,7 +219,7 @@ button:focus {
           border-radius: 0px;
           box-shadow: none;
           margin: 0px;
-          background: #ffd200; }
+          background: #3333ff; }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
@@ -281,7 +282,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #ffd200;
+    background: #3333ff;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -547,7 +548,7 @@ button:focus {
     .portfolio_details_inner .portfolio_right_text .list li:last-child {
       margin-bottom: 0px; }
     .portfolio_details_inner .portfolio_right_text .list li i {
-      color: #f1cd09; }
+      color: #000099; }
 
 .social_details {
   margin-top: 50px; }
@@ -1436,12 +1437,12 @@ button:focus {
     background: #298cdf; }
 
 .warning {
-  background: #f4e700; }
+  background: #000099; }
   .warning:before {
     background: #e1d608; }
 
 .danger {
-  background: #f54940; }
+  background: #000099; }
   .danger:before {
     background: #e13b33; }
 
@@ -1468,10 +1469,10 @@ button:focus {
 
 .warning-border {
   background: #fff;
-  border: 1px solid #f4e700;
-  color: #f4e700; }
+  border: 1px solid #000099;
+  color: #000099; }
   .warning-border:before {
-    background: #f4e700; }
+    background: #000099; }
 
 .danger-border {
   background: transparent;
@@ -1767,27 +1768,27 @@ h6 {
 
 .genric-btn.warning {
   color: #fff;
-  background: #f4e700;
+  background: ##000099;
   border: 1px solid transparent; }
 
 .genric-btn.warning:hover {
-  color: #f4e700;
-  border: 1px solid #f4e700;
+  color: #000099;
+  border: 1px solid #000099;
   background: #fff; }
 
 .genric-btn.warning-border {
-  color: #f4e700;
-  border: 1px solid #f4e700;
+  color: #000099;
+  border: 1px solid #000099;
   background: #fff; }
 
 .genric-btn.warning-border:hover {
   color: #fff;
-  background: #f4e700;
+  background: #000099;
   border: 1px solid transparent; }
 
 .genric-btn.danger {
   color: #fff;
-  background: #f44a40;
+  background: #000099;
   border: 1px solid transparent; }
 
 .genric-btn.danger:hover {
@@ -2845,7 +2846,7 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #ffd200; }
+  background: #3366ff; }
 
 .social_widget .f_title h4 {
   font-size: 21px;
