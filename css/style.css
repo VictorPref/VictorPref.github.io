@@ -210,7 +210,7 @@ button:focus {
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #808080; }
+        color: #0000b3; }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
@@ -219,7 +219,7 @@ button:focus {
           border-radius: 0px;
           box-shadow: none;
           margin: 0px;
-          background: #3333ff; }
+          background: #3399ff; }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
@@ -282,7 +282,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #3333ff;
+    background: #cccccc;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -322,9 +322,9 @@ button:focus {
   background: url(../img/banner/banner-bg2.jpg); }
 .banner-area .slide_bg3 {
   background: url(../img/banner/banner-bg3.jpg); }
-@media (max-width: 991px) {
+
   .banner-area .fullscreen {
-    height: 600px !important; } }
+    height: 50px ; } 
 
 .banner-content {
   text-align: left; }
@@ -374,7 +374,6 @@ button:focus {
     width: 100%;
     min-height: 400px;
     background-image: url(../img/banner/common-banner.jpg);
-    background-size: cover;
     z-index: 1; }
     .banner_area .banner_inner .banner_content h1 {
       color: #000;
@@ -419,7 +418,7 @@ button:focus {
 /* Projects Area css
 ============================================================================================ */
 .projects_fillter {
-  background: #33ccff; }
+  background: #999999; }
   .projects_fillter .filter {
     position: relative;
     text-align: center;
@@ -435,7 +434,7 @@ button:focus {
       height: 100%;
       width: 96%;
       content: "";
-      background: #ffe6db;
+      background: #d9d9d9;
       z-index: -1; }
     .projects_fillter .filter li {
       display: inline-block;
@@ -447,7 +446,7 @@ button:focus {
       .projects_fillter .filter li:last-child {
         margin-right: 0px; }
       .projects_fillter .filter li.active, .projects_fillter .filter li:hover {
-        color: #e45447; }
+        color: #fff; }
 
 .projects_inner {
   margin-bottom: -30px; }
@@ -548,7 +547,7 @@ button:focus {
     .portfolio_details_inner .portfolio_right_text .list li:last-child {
       margin-bottom: 0px; }
     .portfolio_details_inner .portfolio_right_text .list li i {
-      color: #000099; }
+      color: #66b3ff; }
 
 .social_details {
   margin-top: 50px; }
@@ -1007,7 +1006,7 @@ button:focus {
         color: #fff; }
   .blog_right_sidebar .br {
     width: 100%;
-    height: 1px;
+    height: 100px;
     background: #eeeeee;
     margin: 30px 0px; }
 
@@ -1768,27 +1767,27 @@ h6 {
 
 .genric-btn.warning {
   color: #fff;
-  background: ##000099;
+  background: #66b3ff;
   border: 1px solid transparent; }
 
 .genric-btn.warning:hover {
-  color: #000099;
-  border: 1px solid #000099;
+  color: #66b3ff;
+  border: 1px solid #66b3ff;
   background: #fff; }
 
 .genric-btn.warning-border {
-  color: #000099;
-  border: 1px solid #000099;
+  color: #66b3ff;
+  border: 1px solid #66b3ff;
   background: #fff; }
 
 .genric-btn.warning-border:hover {
   color: #fff;
-  background: #000099;
+  background: #66b3ff;
   border: 1px solid transparent; }
 
 .genric-btn.danger {
   color: #fff;
-  background: #000099;
+  background: #66b3ff;
   border: 1px solid transparent; }
 
 .genric-btn.danger:hover {
@@ -2846,7 +2845,7 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #3366ff; }
+  background: #cccccc; }
 
 .social_widget .f_title h4 {
   font-size: 21px;
