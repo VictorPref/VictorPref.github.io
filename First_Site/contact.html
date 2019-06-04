@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+	<head>
+    	<meta charset="utf-8">
+    	<title>Armoire Préfa</title>
+        <meta name="author" content="Victor Prefontaine" >
+        <meta name="description" content="Short Description of the page contents for SEO purposes" >
+		<link rel="stylesheet" href="style/main.css"> 
+    	<script src="script/main.js"></script>
+		
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<![endif]-->
+		<link rel="icon" type="image/ico" href="images/favicon.ico" />
+		
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				
+				<nav id ="menu-prin">
+					<a href=""><img id="logo" src="images/logo.png" alt="logo"/></a>
+					
+					<ul>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="">Couleurs</a></li>
+						<li><a href="modele.html">Modèles</a></li>
+						<li><a href="horaire.html">Horaire</a></li>
+						<li><a href="index.html">Accueil</a></li>
+					</ul>
+					
+				</nav>
+				
+			</header>
+			<main>
+
+			<div id="contact">
+				<div id="map">
+				<!-- google map -->
+				
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7903.584470963783!2d-73.64519804588495!3d45.54350387975344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x647a6b6d7cb681a7!2sISI%2C+l&#39;Institut+sup%C3%A9rieur+d&#39;informatique!5e0!3m2!1sen!2sca!4v1509249287977" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div id="formulaire">
+					<fieldset>
+					<!-- début du formulaire contact -->
+						<legend>Contact</legend>
+						<form action="process.php" method="post">
+							<div id="aligner">
+								<div id="nom1">
+									<input type="text" id="nom" name="nom"  placeholder="Prénom et Nom"/>
+								</div>
+								<div id="email1">
+									<input type="email" id="email" name="email"  placeholder="Email" />
+								</div>
+								<div id="numero1">
+									<input type="tel" id="numero" name="numero"  placeholder="Téléphone" />
+								</div>
+							</div>
+							<div id="textarea">
+								<textarea id="message" name="message" placeholder="Message" rows="10" ></textarea>
+							</div>
+							
+							<div id="sujet">
+								<label for ="Sujet">Sujet: </label>
+								<select id ="Sujet" name="Sujet">
+									<optgroup label="Sujet">
+										<option selected value="information" >Information</option>
+										<option value="garantie">Garantie</option>
+										<option value="livraison">Livraison</option>
+										<option value="achat">Achat</option>
+										<option value="autre">Autre</option>
+									</optgroup>
+								</select>
+								
+							</div>
+							
+							<div id="radio-1">
+								<label for="choix">Me contacter par:   </label>
+								<label for="telephone-ra">Téléphone</label>
+								<input type="radio" id="telephone-ra" name="choix" value ="telephone" checked/>
+								
+								<label for ="email-ra"> Email</label>
+								<input type="radio" id="email-ra" name="choix" value ="email"/>
+							</div>
+							<div id ="pub1">
+								<label for="pub">M'envoyer les e-mails publicitaires </label>
+								<input type="checkbox" id="pub" name="publicite" value = "pub" checked/>
+							</div>
+							
+							<div>
+								
+								<input type="submit" id="submit" value ="Envoyer"/>
+							</div>
+							
+						</form>
+						
+					</fieldset>
+				</div>
+				</div>
+			</main>
+			<footer>
+			<!-- menu du footer -->
+				<ul>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Horaire</a></li>
+					
+					
+				</ul>
+				<!-- logo de facebook -->
+				<a href=""><img id="logo-fb" src="images/fb.png" alt="facebook"/></a>
+				
+				
+				<p>Adresse: 96 Rue Arbre, Québec, QC J3P 7P5
+					<br>
+					Téléphone: 450-842-3698
+				<br>
+				Email: contact@aprefa.com
+				</p>
+				<p id="copy">Victor Préfontaine &copy; 2017</p>
+				
+				
+			</footer>
+		</div>
+	</body>
+</html>									
